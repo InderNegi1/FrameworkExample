@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test getting started.]]>
+    </line>
+    <line>
+      <![CDATA[Setting done test can be started.]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browse and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running.]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to End]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Reports Generated..]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to End]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Reports Generated..]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81820" started-at="2019-07-27T04:18:19Z" finished-at="2019-07-27T04:19:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="81820" started-at="2019-07-27T04:18:19Z" finished-at="2019-07-27T04:19:41Z">
+      <class name="com.openinet.testCases.loginTestInet">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.openinet.testCases.loginTestInet@eaafa6]" name="setUpSuite" is-config="true" duration-ms="3825" started-at="2019-07-27T04:18:16Z" finished-at="2019-07-27T04:18:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test getting started.]]>
+            </line>
+            <line>
+              <![CDATA[Setting done test can be started.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.openinet.testCases.loginTestInet@eaafa6]" name="setup" is-config="true" duration-ms="51562" started-at="2019-07-27T04:18:20Z" finished-at="2019-07-27T04:19:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browse and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.openinet.testCases.loginTestInet@eaafa6]" name="loginApp" duration-ms="9606" started-at="2019-07-27T04:19:11Z" finished-at="2019-07-27T04:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.openinet.testCases.loginTestInet@eaafa6]" name="tearDownMethod" is-config="true" duration-ms="11395" started-at="2019-07-27T04:19:21Z" finished-at="2019-07-27T04:19:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=loginTestInet.loginApp()[pri:1, instance:com.openinet.testCases.loginTestInet@eaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to End]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Reports Generated..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="GetTitile()[pri:2, instance:com.openinet.testCases.loginTestInet@eaafa6]" name="GetTitile" duration-ms="43" started-at="2019-07-27T04:19:32Z" finished-at="2019-07-27T04:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTitile -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.openinet.testCases.loginTestInet@eaafa6]" name="tearDownMethod" is-config="true" duration-ms="1735" started-at="2019-07-27T04:19:32Z" finished-at="2019-07-27T04:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetTitile status=SUCCESS method=loginTestInet.GetTitile()[pri:2, instance:com.openinet.testCases.loginTestInet@eaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to End]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Reports Generated..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.openinet.testCases.loginTestInet@eaafa6]" name="tearDown" is-config="true" duration-ms="7326" started-at="2019-07-27T04:19:34Z" finished-at="2019-07-27T04:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.openinet.testCases.loginTestInet -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
