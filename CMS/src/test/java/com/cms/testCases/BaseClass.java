@@ -35,7 +35,8 @@ public class BaseClass {
 		Reporter.log("Setting up reports and test getting started.",true);
 		objExcl=new ExcelDataProvider();
 		objConfig=new ConfigDataProvider();
-		ExtentHtmlReporter extent= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/CMS_"+Helper.getCurrentDateTime()+".html")); 
+		//ExtentHtmlReporter extent= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/CMS_"+Helper.getCurrentDateTime()+".html")); 
+		ExtentHtmlReporter extent= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/CMSreport.html")); 
 		report=new ExtentReports();
 		report.attachReporter(extent);
 		Reporter.log("Setting done test can be started.",true);
