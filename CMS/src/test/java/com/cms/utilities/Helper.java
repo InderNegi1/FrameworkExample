@@ -19,7 +19,8 @@ public class Helper {
 	{
 		
 		File src=  ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String ScreenshotPath= System.getProperty("user.dir")+"/Screenshots/_login_"+getCurrentDateTime()+".png";
+		//String ScreenshotPath= System.getProperty("user.dir")+"/Screenshots/_login_"+getCurrentDateTime()+".png";
+		String ScreenshotPath= System.getProperty("user.dir")+"/Screenshots/_login.png";
 		
 		try {
 			FileHandler.copy(src, new File (ScreenshotPath));
